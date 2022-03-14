@@ -1,0 +1,15 @@
+{
+  "include": ["./src/**/*"],
+  "exclude": ["./src/**/*.spec.ts"],
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["dom", "es6", "es5"],
+  }
+}
